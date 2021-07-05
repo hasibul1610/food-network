@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.order-food{
+    display: flex;
+    margin-bottom: 50px;
+}
+.order-food-headings{
+    font-size: 30px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.half-part{
+    width: 50%;
+    padding: 30px;
+    
+}
+
+.order-food-image{
+    width: 80%;
+}
+.order-food-button{
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.about-me{
+    display: flex;
+    margin-bottom: 50px;
+    background-image: url(./images/about-me-background.png);
+    background-repeat: no-repeat;
+}
+#about-me-image{
+    width: 58%;
+    margin-left: 150px;
+}
+.about-me-header{
+
+    font-size: 50px;
+}
+.contact-me-button{
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 25px;
+
+}
+
+.recipie-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.recipie-item{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.recipie-item-card img{
+    width: 98%;
+    
+}
+.recipie-item-card{
+    box-shadow: 10px 10px 20px gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 15px;
+}
