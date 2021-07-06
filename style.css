@@ -59,9 +59,11 @@ body{
     display: flex;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 .recipie-item-card img{
     width: 98%;
+    margin: 0 1%;
     
 }
 .recipie-item-card{
@@ -69,4 +71,45 @@ body{
     padding: 20px;
     border-radius: 20px;
     margin: 10px 15px;
+}
+.visitor{
+    display: flex;
+    width: 88%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    
+}
+.visitor-item{
+    width: 29%;
+    text-align: center;
+    margin: 10px 40px;
+}
+.download-app{
+    display: flex;
+}
+
+.download-app-item{
+    width: 50%;
+    margin: 0 auto;
+}
+.download-app-item h2{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 35px;
+}
+.download-app-item >a >img{
+    width: 30%;
+}
+
+footer{
+    background-color: black;
+    color: rgb(202, 202, 202);
+    text-align: center;
+    height: 200px;
+}
+.footer-logo{
+    padding: 30px 10px;
+    font-size: 30px;
+    font-weight: bolder;
 }
